@@ -127,3 +127,9 @@ form{
 .users1:hover{
 	background-color:seashell;
 }
+.home1{
+	width: 50%;
+	margin: 100px auto;
+	padding: 20px;
+	text-align: center;
+}
