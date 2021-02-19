@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.index-intro{
+	text-align: center;
+}
+.index-categories{
+	text-align: center;
+	margin: 20px;
+}
+
+nav{
+	border-bottom: 1px solid gray;
+	width: 100%;
+	overflow: hidden;
+	padding: 5px;
+	margin: 0;
+	background-color: white;
+}
+.home{
+	list-style-type: none;
+	text-align: center;
+	display: inline;
+	list-style: none;	
+}
+.home li {
+	float: left;
+	text-align: center;
+	display: inline;
+	border: 0px;
+	padding: 0;
+	background-color: white;
+	margin: 0px 5px;
+}
+.menu{
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;	
+}
+.menu li {
+	float: right;
+	text-align: center;
+	border: 0px;
+	background-color: white;
+	margin: 0px 0px;
+	margin-right: 10px;
+}
+li a{
+	padding: 5px;
+	text-decoration: none;
+	color: gray;
+	font-weight: bold;
+	display: inline-block;
+}
+
+form{
+	margin-top: 35px;
+}
+
+.signform{
+	width: 50%;
+	padding: 30px;
+	margin: 30px auto;
+	border: 0px solid gray;
+	border-radius: 5px;
+	text-align: center;
+}
+.signform input{
+	width: 30%;
+	display: block;
+	margin: 10px auto;
+	outline: 0;
+	border: 1px solid gray;
+	padding: 7px;
+	border-radius: 3px;
+}
+.signform button{
+	width: 32%;
+	outline: 0;
+	border: 1px solid gray;
+	margin: 30px;
+	padding: 10px;
+	background-color: white;
+	color: black;
+	font-weight: 780;
+	font-size: 15px;
+	cursor: pointer;
+}
+#welc{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+	background-color: white;
+	border-bottom: 1px solid gray;
+	color: gray;
+	padding: 5px;
+}
+
+.title{
+	text-align: center;
+	padding: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.users{
+	width: 70%;
+	margin: 60px auto;
+	border: 1px solid white;
+}
+.users a{
+	text-decoration: none;
+	color:darkslategray;
+}
+.users1{
+	width: 70%;
+	margin: 15px auto;
+	padding: 40px;
+	background-color:linen;
+	font-size: 20px;
+	font-weight: 550;
+}
+.users1 p{
+	font-size: 17px;
+	font-weight: 500;
+}
+.users1:hover{
+	background-color:seashell;
+}
